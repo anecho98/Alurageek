@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="header">
+        <img id="logo" src="./images/logo.png" alt="Logo">
+    </header>
+    <main class="main-container">
+        <section>
+            <h1>Mis Productos:</h1>
+            <div data-product class="products-container">
+                <!-- Los productos serán cargados aquí -->
+            </div>
+            <p class="no-products-message" id="no-products-message">No se han agregado productos</p>
+        </section>
+
+        <section>
+            <h2>Agregar Producto</h2>
+            <form class="form-container" data-form>
+                <input data-name placeholder="nombre..." type="text">
+                <input data-price placeholder="precio..." type="text">
+                <input data-image placeholder="imagen..." type="text">    
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Enviar...</button>
+                    <button type="reset" class="button-clear" id="button">Limpiar...</button>
+                </div>
+            </form>    
+        </section>
+    </main>
+    <footer class="footer-container">
+        <img id="logo" src="./images/logo.png" alt="Logo">
+        <p>Desarrollado por Angy Henao</p>
+        <p>Alura Latam - Programa ONE 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

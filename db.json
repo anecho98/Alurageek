@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+        "name": "Darth Vader",
+        "price": "50",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp",
+        "id": 1
+      },
+      {
+        "name": "Flash",
+        "price": "25",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+        "id": 2
+      },
+      {
+        "name": "Batman",
+        "price": "35",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp",
+        "id": 3
+      },
+      {
+        "name": "Yoda",
+        "price": "25",
+        "image": "https://m.media-amazon.com/images/I/71Rm2YCBmZL._AC_UL320_.jpg",
+        "id": 4
+    }
+  ]
+}

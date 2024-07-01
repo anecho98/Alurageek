@@ -1,0 +1,172 @@
+/* styles.css */
+
+/* Fuente geek */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1b1b1b;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #5502c9;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header img {
+    width: 600px;
+}
+
+.main-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    color: #00e5ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #272727;
+    border: 2px solid #00e5ff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.img-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.card-container-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-container-info p {
+    margin: 5px 0;
+}
+
+.card-container-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card-container-value p {
+    font-size: 1.2em;
+    color: #00e5ff;
+}
+
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button img {
+    width: 20px;
+}
+
+/*Section form*/
+h2 {
+    color: #00e5ff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: #272727;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid #00e5ff;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border-radius: 5px;
+    border: 1px solid #00e5ff;
+    background-color: #1b1b1b;
+    color: #f5f5f5;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-submit, .button-clear {
+    background-color: #00e5ff;
+    color: #1b1b1b;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button-submit:hover, .button-clear:hover {
+    background-color: #00b3cc;
+}
+
+.footer-container {
+    background-color: #5502c9;
+    text-align: center;
+    padding: 20px;
+    color: #f5f5f5;
+}
+
+.footer-container img {
+    width: 600px;
+}
+
+.footer-container p {
+    margin: 10px 0;
+}
+
+.no-products-message {
+    text-align: center;
+    font-size: 1.5em;
+    color: #00e5ff;
+    display: none;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
